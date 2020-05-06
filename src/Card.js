@@ -1,7 +1,7 @@
 import React from 'react';
 import image from './img/blog-01.jpg';
 
-const Card = () =>{
+const Card = (props) =>{
     return(
         <div className="card">
             <img className="card-img-top"
